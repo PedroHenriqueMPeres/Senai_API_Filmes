@@ -1,5 +1,6 @@
 ﻿using api_filmes_senai.Domains;
 using api_filmes_senai.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,7 @@ namespace api_filmes_senai.Controllers
         {
             _generoRepository = generoRepository;
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Get()
         {
@@ -29,7 +30,7 @@ namespace api_filmes_senai.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        [Authorize]
         [HttpPost]
 
         public IActionResult Post(Genero novoGenero)
@@ -47,6 +48,7 @@ namespace api_filmes_senai.Controllers
 
         }
 
+        [Authorize]
         [HttpGet("BuscarPorId/{id}")]
 
         public IActionResult GetById(Guid id)
@@ -64,6 +66,7 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {
@@ -79,6 +82,7 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Genero genero)
         {
