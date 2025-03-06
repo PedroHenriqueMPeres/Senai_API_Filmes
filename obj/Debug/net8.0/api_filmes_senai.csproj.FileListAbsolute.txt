@@ -676,3 +676,8 @@ C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\refint\api_filmes_senai.
 C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\api_filmes_senai.pdb
 C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\api_filmes_senai.genruntimeconfig.cache
 C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\ref\api_filmes_senai.dll
+C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\api_filmes_senai.MvcApplicationPartsAssemblyInfo.cs

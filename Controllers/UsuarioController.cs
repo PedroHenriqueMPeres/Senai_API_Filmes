@@ -18,6 +18,11 @@ namespace api_filmes_senai.Controllers
             _usuarioRepository = usuarioRepository;
         }
 
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="usuario">Id Genero buscado</param>
+        /// <returns>Genero Buscado</returns>
         [HttpPost]
         public IActionResult Post(Usuario usuario)
         {

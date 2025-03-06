@@ -16,6 +16,7 @@ namespace api_filmes_senai.Controllers
         {
             _generoRepository = generoRepository;
         }
+
         [Authorize]
         [HttpGet]
         public IActionResult Get()
@@ -30,9 +31,13 @@ namespace api_filmes_senai.Controllers
                 return BadRequest(e.Message);
             }
         }
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="novoGenero">Id Genero buscado</param>
+        /// <returns>Genero Buscado</returns>
         [Authorize]
         [HttpPost]
-
         public IActionResult Post(Genero novoGenero)
         {
             try
@@ -47,7 +52,11 @@ namespace api_filmes_senai.Controllers
             }
 
         }
-
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="id">Id Genero buscado</param>
+        /// <returns>Genero Buscado</returns>
         [Authorize]
         [HttpGet("BuscarPorId/{id}")]
 
@@ -65,7 +74,11 @@ namespace api_filmes_senai.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="id">Id Genero deletado</param>
+        /// <returns>Genero deletado</returns>
         [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
@@ -98,6 +111,10 @@ namespace api_filmes_senai.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="id">Id Genero buscado</param>
+        /// <returns>Genero Buscado</returns>
     }
 }
