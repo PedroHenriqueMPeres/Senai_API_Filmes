@@ -83,6 +83,11 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        ///<summary>
+        /// EndPoint para buscar um Filme pelo seu Id
+        /// </summary>
+        /// <param  name="novoFilme">Id Filme buscado</param>
+        /// <returns>Filme Buscado</returns>
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Filme filme)
         {

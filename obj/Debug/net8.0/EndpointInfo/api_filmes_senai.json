@@ -170,6 +170,7 @@
         "tags": [
           "Genero"
         ],
+        "summary": "EndPoint para buscar um Genero pelo seu Id",
         "responses": {
           "200": {
             "description": "OK"
@@ -180,7 +181,9 @@
         "tags": [
           "Genero"
         ],
+        "summary": "EndPoint para buscar um Genero pelo seu Id",
         "requestBody": {
+          "description": "Id Genero buscado",
           "content": {
             "application/json": {
               "schema": {
@@ -211,10 +214,12 @@
         "tags": [
           "Genero"
         ],
+        "summary": "EndPoint para buscar um Genero pelo seu Id",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id Genero buscado",
             "required": true,
             "schema": {
               "type": "string",
@@ -234,10 +239,12 @@
         "tags": [
           "Genero"
         ],
+        "summary": "EndPoint para buscar um Genero pelo seu Id",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id Genero deletado",
             "required": true,
             "schema": {
               "type": "string",
@@ -255,6 +262,7 @@
         "tags": [
           "Genero"
         ],
+        "summary": "EndPoint para buscar um Genero pelo seu Id",
         "parameters": [
           {
             "name": "id",
@@ -328,7 +336,9 @@
         "tags": [
           "Usuario"
         ],
+        "summary": "EndPoint para buscar um Genero pelo seu Id",
         "requestBody": {
+          "description": "Id Genero buscado",
           "content": {
             "application/json": {
               "schema": {
@@ -468,6 +478,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Value: Bearer TokenJWT ",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

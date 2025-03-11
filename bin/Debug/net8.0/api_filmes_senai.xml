@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api_filmes_senai</name>
+    </assembly>
+    <members>
+        <member name="M:api_filmes_senai.Controllers.GeneroController.Get">
+            <summary>
+             EndPoint para buscar um Genero pelo seu Id
+             </summary>
+             <param  name="novoGenero">Id Genero buscado</param>
+             <returns>Genero Buscado</returns>
+        </member>
+        <member name="M:api_filmes_senai.Controllers.GeneroController.Post(api_filmes_senai.Domains.Genero)">
+            <summary>
+             EndPoint para buscar um Genero pelo seu Id
+             </summary>
+             <param  name="novoGenero">Id Genero buscado</param>
+             <returns>Genero Buscado</returns>
+        </member>
+        <member name="M:api_filmes_senai.Controllers.GeneroController.GetById(System.Guid)">
+            <summary>
+             EndPoint para buscar um Genero pelo seu Id
+             </summary>
+             <param  name="id">Id Genero buscado</param>
+             <returns>Genero Buscado</returns>
+        </member>
+        <member name="M:api_filmes_senai.Controllers.GeneroController.Delete(System.Guid)">
+            <summary>
+             EndPoint para buscar um Genero pelo seu Id
+             </summary>
+             <param  name="id">Id Genero deletado</param>
+             <returns>Genero deletado</returns>
+        </member>
+        <member name="M:api_filmes_senai.Controllers.GeneroController.Put(System.Guid,api_filmes_senai.Domains.Genero)">
+            <summary>
+             EndPoint para buscar um Genero pelo seu Id
+             </summary>
+             <param  name="novoGenero">Id Genero buscado</param>
+             <returns>Genero Buscado</returns>
+        </member>
+        <member name="M:api_filmes_senai.Controllers.UsuarioController.Post(api_filmes_senai.Domains.Usuario)">
+            <summary>
+             EndPoint para buscar um Genero pelo seu Id
+             </summary>
+             <param  name="usuario">Id Genero buscado</param>
+             <returns>Genero Buscado</returns>
+        </member>
+        <member name="T:api_filmes_senai.Migrations.Db_Context">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db_Context.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db_Context.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db_Context.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:api_filmes_senai.Migrations.Db_Filmes_V2">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db_Filmes_V2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db_Filmes_V2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db_Filmes_V2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

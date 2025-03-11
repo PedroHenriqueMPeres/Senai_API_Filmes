@@ -681,3 +681,5 @@ C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Swashbuckle.AspNetCore.S
 C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\api_filmes_senai.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\54571279825\Desktop\API_Filme\bin\Debug\net8.0\api_filmes_senai.xml
+C:\Users\54571279825\Desktop\API_Filme\obj\Debug\net8.0\api_filmes_senai.xml

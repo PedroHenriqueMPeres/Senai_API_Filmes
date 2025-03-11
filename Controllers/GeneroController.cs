@@ -17,6 +17,11 @@ namespace api_filmes_senai.Controllers
             _generoRepository = generoRepository;
         }
 
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="novoGenero">Id Genero buscado</param>
+        /// <returns>Genero Buscado</returns>
         [Authorize]
         [HttpGet]
         public IActionResult Get()
@@ -95,6 +100,11 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        ///<summary>
+        /// EndPoint para buscar um Genero pelo seu Id
+        /// </summary>
+        /// <param  name="novoGenero">Id Genero buscado</param>
+        /// <returns>Genero Buscado</returns>
         [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Genero genero)
